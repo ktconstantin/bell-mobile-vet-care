@@ -1,0 +1,183 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: grey;
+}
+
+.contact-us {
+  margin: 0;
+  padding: 50px 100px;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(cat_and_puppy_in_grass.jpg);
+  background-size: cover;
+}
+
+.contact-us .greeting {
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact-us .greeting h2 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.contact-us .greeting p {
+  font-weight: 300;
+}
+
+.contact-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contact-content .contact-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-content .contact-info .contact-info-box {
+  position: relative;
+  padding: 20px 0px;
+  display: flex;
+}
+
+.contact-content .contact-info .contact-info-icon {
+  min-width: 60px;
+  height: 60px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+  background-color: #00bcd4;
+}
+
+.contact-content .contact-info .contact-info-text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 18px;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.contact-content .contact-info .contact-info-text h3 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.contact-form {
+  width: 40%;
+  padding: 40px;
+  background-color: white;
+}
+
+.contact-form h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.contact-form .input-box {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contact-form .input-box span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contact-form .input-box input:focus ~ span,
+.contact-form .input-box input:valid ~ span,
+.contact-form .input-box textarea:focus ~ span,
+.contact-form .input-box textarea:valid ~ span {
+  color: navy;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contact-form .input-box input[type="submit"] {
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+@media (max-width: 991px) {
+  .contact-us {
+    padding: 50px;
+  }
+  .contact-content {
+    flex-direction: column;
+  }
+  .contact-content .contact-info {
+    margin-bottom: 40px;
+  }
+  .contact-content .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+}
+
+.nav-list {
+  background: white;
+  box-shadow: 0px 0px 10px #00bcd4;
+  margin: 0;
+  padding: 1rem 0;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  transition: all 200ms ease-in;
+}
+
+.nav-item a:hover {
+  color: #00bcd4;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 2rem;
+}
