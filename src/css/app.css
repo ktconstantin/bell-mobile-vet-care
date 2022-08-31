@@ -1,0 +1,11 @@
+@import-normalize;
+@import './navbar.css';
+
+*, *::before, *::after {
+  font-family: 'Inter';
+}
+
+body {
+  background-color: white;
+  color: black;
+}
