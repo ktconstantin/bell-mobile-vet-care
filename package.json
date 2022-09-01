@@ -1,7 +1,6 @@
 {
   "name": "bell-mobile-vet-care",
   "version": "0.1.0",
-  "homepage": "https://ktconstantin.github.io/bell-mobile-vet-care",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
@@ -23,8 +22,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predepoly": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
