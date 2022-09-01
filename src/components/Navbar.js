@@ -1,18 +1,44 @@
 import React from 'react';
+import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+import logo from '../img/logo.png';
 
-export default function Navbar() {
+export default function Navbar({ isScheduleDisplayed, handleScheduleClick }) {
+  
+
   return (
-    <header>
+    
       <nav className="nav" role="navigation">
-        <a href="/" className="site-title">Bell Mobile Veterinary Care</a>
+        <img 
+          src={logo} 
+          alt="company logo"
+          className="logo"
+        />
         <ul>
-          <li><a href="#" id="nav--home">Home</a></li>
-          <li><a href="#" id="nav--about">About</a></li>
-          <li><a href="#" id="nav--schedule">Schedule</a></li>
-          <li><a href="#" id="nav--contact">Contact</a></li>
+          <CustomLink to="/">Home</CustomLink>
+          <CustomLink to="/about">About</CustomLink>
+          <CustomLink to="/schedule">Schedule</CustomLink>
+          <CustomLink to="/contact">Contact Us</CustomLink>
         </ul>
       </nav>
-    </header>
     
+  )
+}
+
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ 
+    path: resolvedPath.pathname, 
+    end: true 
+  });
+
+  return (
+    <li className={isActive ? "active" : ""}>
+      <Link 
+        to={to} 
+        {...props}
+      >
+        {children}
+      </Link>
+    </li>
   )
 }

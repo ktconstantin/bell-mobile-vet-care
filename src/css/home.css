@@ -1,0 +1,28 @@
+.img__cat,
+.img__frenchie,
+.img__obama {
+  height: auto;
+  width: 50%;
+}
+
+.img__cat-container,
+.img__obama-container {
+  text-align: left;
+  overflow: auto;
+}
+
+.img__frenchie-container {
+  text-align: right;
+  overflow: auto;
+}
+
+.home__container {
+  display: flex;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}

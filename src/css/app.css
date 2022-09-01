@@ -1,11 +1,13 @@
 @import-normalize;
 @import './navbar.css';
+@import './home.css';
 
 *, *::before, *::after {
   font-family: 'Inter';
 }
 
-body {
-  background-color: white;
-  color: black;
+.logo {
+  height: 250px;
+  width: auto;
 }
+
