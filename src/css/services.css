@@ -1,0 +1,86 @@
+.services__row {
+  display: flex;
+}
+
+.services__title {
+  text-align: center;
+}
+
+.services__img-container {
+  max-width: 30%;
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.services__img-container * {
+  box-sizing: border-box;
+  transition: all 0.45s ease;
+}
+
+.services__img-container:before,
+.services__img-container:after {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 32px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 32px solid rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+  transform: scaleY(2);
+}
+
+.services__img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.services__img-container figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  z-index: 2;
+  transition-delay: 0.1s;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.services__img-container:hover:before,
+.services__img-container:hover:after {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.services__img-container:hover > img {
+  opacity: 0.7;
+}
+
+.services__img-container:hover figcaption {
+  opacity: 1;
+}
+
+
+
+

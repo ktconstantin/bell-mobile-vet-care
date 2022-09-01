@@ -1,6 +1,9 @@
 @import-normalize;
 @import './navbar.css';
 @import './home.css';
+@import './images.css';
+@import './about.css';
+@import './services.css';
 
 *, *::before, *::after {
   font-family: 'Inter';
