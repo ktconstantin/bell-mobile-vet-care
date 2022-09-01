@@ -1,0 +1,14 @@
+.contact__container {
+  display: flex;
+  font-size: 24px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.contact__info {
+  margin-left: 10px;
+}
+
+.contact__icon {
+  font-size: 30px;
+}

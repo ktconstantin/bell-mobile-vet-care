@@ -4,6 +4,8 @@
 @import './images.css';
 @import './about.css';
 @import './services.css';
+@import './contact.css';
+@import './footer.css';
 
 *, *::before, *::after {
   font-family: 'Inter';

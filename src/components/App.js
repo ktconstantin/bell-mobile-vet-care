@@ -6,6 +6,7 @@ import Schedule from './Schedule';
 import Contact from './Contact';
 import '../css/app.css';
 import { Route, Routes } from 'react-router-dom';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 }

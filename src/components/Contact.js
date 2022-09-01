@@ -1,15 +1,26 @@
 import React from 'react';
+import { MdEmail, MdMessage } from 'react-icons/md';
+
 
 export default function Contact() {
   return (
     <div>
-      <p>Feel free to reach out with any questions you have via email or text</p>
-      <p>Don't you fucking call though</p>
+      <h2>Feel free to reach out with any questions you have via email or text</h2>
+      <h3>Don't you fucking call though</h3>
 
-      <div>
-        <a href="mailto:bellmobilevetcare@gmail.com">Email</a>
+      <div className="contact__container">
+        <MdEmail className="contact__icon"/>
+        <div className="contact__info"><a href="mailto:bellmobilevetcare@gmail.com">Email</a></div>
       </div>
-      <p>Text: (123) 456-7890</p>
+
+      <div className="contact__container">
+        <MdMessage className="contact__icon"/>
+        <div className="contact__info">
+          Text: (123) 456-7890
+        </div>
+      </div>
     </div>
   )
 }
+
+
