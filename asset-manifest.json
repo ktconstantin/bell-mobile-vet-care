@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.78b60d3e.css",
+    "main.js": "/static/js/main.8436722f.js",
+    "static/media/glasses-pug.png": "/static/media/glasses-pug.158c7cef1929ef0ed104.png",
+    "static/media/denim-pug.png": "/static/media/denim-pug.e253cfb8ed283f2cd673.png",
+    "static/media/beanie-pug.png": "/static/media/beanie-pug.7cf7efb81dd58ac66c39.png",
+    "static/media/pug-blanket.png": "/static/media/pug-blanket.58e824a14affaffbf25f.png",
+    "static/media/sunglasses-cat.png": "/static/media/sunglasses-cat.5b9f24705f35e8ed3647.png",
+    "static/media/sad-pug.png": "/static/media/sad-pug.a97ce4972ce4f219b581.png",
+    "static/media/frenchie.png": "/static/media/frenchie.8ae4891e93cd1035863a.png",
+    "static/media/obama.png": "/static/media/obama.b0aa7f4f845c5af0715e.png",
+    "static/media/pug-floor.png": "/static/media/pug-floor.058e723359ae1f067587.png",
+    "static/media/elena-skiing-tofu.jpg": "/static/media/elena-skiing-tofu.3d900872562a3395220f.jpg",
+    "static/media/huck-tofu.jpg": "/static/media/huck-tofu.46510c05cd7a927704f0.jpg",
+    "static/media/logo.png": "/static/media/logo.3e3aa087fcc449fcfd97.png",
+    "static/media/elena-marshall-kayaks.jpg": "/static/media/elena-marshall-kayaks.9a22742e42f5a83c5e35.jpg",
+    "static/media/elena-marshall-hiking.jpg": "/static/media/elena-marshall-hiking.776fe063d3ca10bb4c10.jpg",
+    "static/media/elena-main.jpg": "/static/media/elena-main.ca95cddf63f0e062cf9b.jpg",
+    "static/media/tofu-snow.jpg": "/static/media/tofu-snow.01c78d0f8a949e0a7122.jpg",
+    "index.html": "/index.html",
+    "main.78b60d3e.css.map": "/static/css/main.78b60d3e.css.map",
+    "main.8436722f.js.map": "/static/js/main.8436722f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78b60d3e.css",
+    "static/js/main.8436722f.js"
+  ]
+}
