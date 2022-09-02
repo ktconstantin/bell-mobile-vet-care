@@ -39,7 +39,7 @@ export default function Home() {
           className="img__obama"
         />
         <div className="quote-container">
-          <p className="quote">{"\"Even though Dr. Elena lived like 3,000 miles away,\nI still called her for all of Bo and Sunny's vet needs.\nBecause she's that goddamn good.\""}</p>
+          <p className="quote">{"\"Even though Dr. Elena lived like 3,000 miles away,\nI still called her for all of Bo and Sunny's vet needs.\nBecause she's that good.\""}</p>
         </div>
       </div>
     </div>
